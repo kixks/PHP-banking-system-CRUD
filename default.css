@@ -1,0 +1,27 @@
+.f-right {
+    float: right
+}
+
+.pt-10 {
+    padding-top: 117px
+}
+
+.pt-150 {
+    padding-top: 150px
+}
+
+.pb-100 {
+    padding-bottom: 100px
+}
+
+.mb-100 {
+    margin-bottom: 100px
+}
+
+.mb-30 {
+    margin-bottom: 30px
+}
+
+.plr-100 {
+    padding: 0 50px;
+}

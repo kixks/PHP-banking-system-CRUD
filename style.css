@@ -1,0 +1,357 @@
+html {
+    scroll-behavior: smooth;
+}
+.backgroundForhome {
+    background: url('Pictures/Background1.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/***** For header and nav styles *****/
+.headerArea {
+
+    padding: 10px 0;
+    background: #37517e;
+
+}
+.headerArea.fixed {
+    position: absolute;
+    left: 0;
+    right: 0
+}
+.headerArea h3 {
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+}
+.headerRightArea {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center
+}
+.headerMenu ul {
+    padding: 0;
+    margin: 0
+}
+.headerMenu ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 25px;
+    position: relative
+}
+.headerMenu ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff
+}
+.headerMenu ul li a:hover:not(.active) {
+    color: #97aef7
+}
+
+.dropdown ul li a {
+    color: #000;
+}
+
+.f-right {
+    float: right;
+}
+/***** End Section *****/
+/***** Dashboard styles *****/
+.dashboardArea {
+    background: #f0f8ff
+}
+.sidebaArea {
+    background: #fff;
+    padding: 35px 0;
+    border-radius: 5px
+}
+.sidebarTopArea {
+    margin-bottom: 30px
+}
+.userName h3 {
+    font-size: 21px;
+    color: #37517e
+}
+.slidebarNavArea ul {
+    padding-left: 0;
+    margin: 0
+}
+.slidebarNavArea ul li.navItem {
+    list-style: none;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 0.4s;
+    position: relative
+}
+.slidebarNavArea ul li.navItem a {
+    color: #37517e;
+    display: flex;
+    text-decoration: none;
+    align-items: center
+}
+.slidebarNavArea ul li.navItem a svg {
+    margin-right: 10px
+}
+.slidebarNavArea ul li.navItem.active {
+    background: #37517eeb;
+}
+.slidebarNavArea ul li.navItem:hover {
+    background: #37517eeb;
+}
+.slidebarNavArea ul li.navItem:hover a {
+    color: #fff
+}
+.slidebarNavArea ul li.navItem.active a {
+    color: #fff
+}
+.slidebarNavArea ul li.navItem a span.pull-right-container {
+    position: absolute;
+    right: 10px
+}
+.slidebarNavArea ul li.navItem.show ul.submenu {
+    display: block
+}
+ul.submenu {
+    padding: 0 0 0 25px;
+    margin: 0;
+    display: none;
+    transition: 0.4s
+}
+ul.submenu li {
+    list-style: none;
+    padding-top: 10px
+}
+ul.submenu li a {
+    font-size: 14px
+}
+
+.singleCard {
+    margin-top: 15px;
+    background: #fff;
+    border-radius: 5px;
+    padding: 15px
+}
+
+.count h4 {
+    color: #37517e;
+    font-size: 35px;
+}
+.balanceLabel p {
+    margin-bottom: 0;
+    color: #37517e;
+    font-size: 18px
+}
+
+.balanceLabel {
+    margin-top: 15px
+}
+/***** End Section *****/
+
+/***** Home styles *****/
+
+#homestyle h1 {
+    color: rgb(245, 245, 245);
+    font-size: 70px;
+    text-shadow: 3px 3px #256D85;
+}
+
+#homestyle p {
+    font-family: 'Libre Baskerville', serif;
+    color: #DFF6FF;
+    font-size: 50px;
+    text-align: center;
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.loginbutton {
+    margin-left: 36%;
+    padding: 5px 10px;
+    border: none;
+    overflow: hidden;
+    background: #37517e;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+    border-radius: 25px;
+}
+
+.loginbutton a {
+    font-weight: bolder;
+    text-decoration: none;
+    color: #fff;
+    font-size: 9px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    letter-spacing: 4px;
+    transition: 0.5s;
+}
+.loginbutton:hover {
+    background-color: white;
+    cursor: pointer;
+    transform: scale(1.20);
+}
+.loginbutton a:hover {
+    color: #000;
+}
+
+
+/***** End Section *****/
+
+/***** About styles *****/
+#center {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    color: white;
+}
+#center h1 p {
+    font-size: small;
+}
+#center h1 {
+    text-align: center;
+}
+
+/***** End Section *****/
+
+/***** Services styles *****/
+
+.sectionLetter {
+    color: black;
+
+}
+.service ul li {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+
+    list-style-type: style bloc;
+}
+
+
+.carousel-inner {
+    border-top: 10px;
+    border-left: 10px;
+    border-right: 10px;
+    border-bottom: 10px;
+    border-color: #37517e;
+    border-style: solid;
+}
+
+.servicePadding {
+    padding: 25px 0;
+}
+/***** End Services *****/
+
+/***** footer Area *****/
+footer {
+    background: #37517eeb;
+    min-height: 50px;
+}
+
+footer p {
+    color: rgb(255, 250, 250);
+}
+
+
+/***** End Section *****/
+/***** Acount opening Section *****/
+
+/***** End Section *****/
+
+/***** Application Page *****/
+
+.form-control {
+    padding-top: 10px;
+
+}
+
+.submit-btn {
+    margin-top: 30px;
+    background-color: #37517eeb;
+    color: white;
+    border: none;
+}
+
+.dropbtn {
+    color: #37517eeb;
+    font-weight: bold;
+}
+
+.dropdown-item1 {
+    display: block;
+    width: 100%;
+    padding: var(--bs-dropdown-item-padding-y) var(--bs-dropdown-item-padding-x);
+    clear: both;
+    font-weight: 400;
+    color: var(--bs-dropdown-link-color);
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+
+footer {
+    min-height: 50px;
+}
